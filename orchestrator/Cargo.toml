@@ -1,0 +1,10 @@
+[package]
+name = "orchestrator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+core_affinity = "0.8.3"
+crossbeam = "0.8.4"
+rand = "0.10.2"
+redis = { version = "1.4.0", features = ["tokio-comp"] }

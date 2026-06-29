@@ -1,0 +1,4 @@
+/orchestrator/target/
+/orchestrator_multicore/target/
+**/*.rs.bk
+.DS_Store
